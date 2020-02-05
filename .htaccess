@@ -1,0 +1,27 @@
+
+        Options FollowSymLinks MultiViews
+        IndexOptions FancyIndexing
+
+        DirectoryIndex index.php index.html main.php main.html
+
+        <FilesMatch \.(ini|xml|log|htaccess|htpasswd)>
+            order allow,deny
+            deny from all
+        </FilesMatch>
+
+        RewriteEngine On
+        RewriteBase /
+
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-l
+        RewriteRule ^(.+)$ index.php?url_parameters=$1 [NC,L]
+
+        php_flag display_startup_errors off
+        php_value post_max_size 200M
+        php_value upload_max_filesize 200M
+        php_value memory_limit 400M
+        php_value max_execution_time 600
+
+
+         

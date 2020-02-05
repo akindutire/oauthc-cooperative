@@ -1,0 +1,11 @@
+{
+    "currentApp": "oauthcoop",
+    "defaultApp": "oauthcoop",
+    "apps": {
+        "oauthcoop": {
+            "name": "oauthcoop",
+            "trial": 0,
+            "prod": false
+        }
+    }
+}
