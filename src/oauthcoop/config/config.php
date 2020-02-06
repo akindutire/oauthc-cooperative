@@ -23,7 +23,7 @@
 
              /** Specify allowed host to your app */
              public function getCorsPolicy() : array { 
-                return ['*'] 
+                return ['*'];
              }
 
              /**
