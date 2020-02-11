@@ -18,7 +18,10 @@ class Web implements Route{
     * @return array
     */
     public function route(): array{
-        return [];
+        return [
+            'admin/login' => (new Resource('Admin@Login'))->alias('')->get(),
+            ''
+        ];
     }
 }
 
