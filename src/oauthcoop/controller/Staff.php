@@ -20,7 +20,7 @@ class Staff{
 
     public function Registraion(Param $param){
 
-        $OutputData = [];
+        $OutputData = ['title' => "Registration",];
 
         #render the desired interface inside the view folder
 
