@@ -18,6 +18,15 @@ class Staff{
 
     use Notifier, Navigator, Hooks;
 
+			public function Registraion(Param $param){
+
+				$OutputData = [];
+
+				#render the desired interface inside the view folder
+
+				View::render("Staff/Registraion.php", $OutputData);
+			}
+
 			public function Login(Param $param){
 
 				$OutputData = [];
