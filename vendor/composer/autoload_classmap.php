@@ -15,4 +15,5 @@ return array(
     'src\\oauthcoop\\model\\Feedback' => $baseDir . '/src/oauthcoop/model/Feedback.php',
     'src\\oauthcoop\\route\\Api' => $baseDir . '/src/oauthcoop/route/Api.php',
     'src\\oauthcoop\\route\\Web' => $baseDir . '/src/oauthcoop/route/Web.php',
+    'src\\oauthcoop\\service\\LoginNotifier' => $baseDir . '/src/oauthcoop/service/LoginNotifier.php',
 );
