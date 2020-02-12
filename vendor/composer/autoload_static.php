@@ -30,6 +30,7 @@ class ComposerStaticInita201138208421f238683f8a68246bb87
         'src\\oauthcoop\\model\\Feedback' => __DIR__ . '/../..' . '/src/oauthcoop/model/Feedback.php',
         'src\\oauthcoop\\route\\Api' => __DIR__ . '/../..' . '/src/oauthcoop/route/Api.php',
         'src\\oauthcoop\\route\\Web' => __DIR__ . '/../..' . '/src/oauthcoop/route/Web.php',
+        'src\\oauthcoop\\service\\LoginNotifier' => __DIR__ . '/../..' . '/src/oauthcoop/service/LoginNotifier.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
