@@ -20,9 +20,9 @@ class Web implements Route{
     public function route(): array{
         return [
             'admin/login' => (new Resource('Admin@Login'))->alias('')->get(),
-            'staff/login' => (new Resource('Staff@Login'))->get()
+            'staff/login' => (new Resource('Staff@Login'))->get(),
+            'staff/dashboard' => (new Resource('Staff/Dashboard@Board'))->alias('sdb')->get()
         ];
     }
 }
 
-    
