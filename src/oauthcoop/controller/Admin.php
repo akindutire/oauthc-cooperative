@@ -19,20 +19,20 @@ class Admin{
 
     use Notifier, Navigator, Hooks;
 
-			public function Login(Param $param){
+    public function Login(Param $param){
 
-				$OutputData = [
-                    'feedback' => (new Feedback())->readOutData(),
-                    'title' => 'Admin'
-                ];
+        $OutputData = [
+            'feedback' => (new Feedback())->readOutData(),
+            'title' => 'Admin'
+        ];
 
-                // var_dump("<pre>", $OutputData, "</pre>");
-                // die();
+        // var_dump("<pre>", $OutputData, "</pre>");
+        // die();
 
-				#render the desired interface inside the view folder
+        #render the desired interface inside the view folder
 
-				View::render("Admin/Login.php", $OutputData);
-			}
+        View::render("Admin/Login.php", $OutputData);
+    }
 
     public function __construct(){}
     public function onInit(Param $param){}
@@ -40,4 +40,3 @@ class Admin{
     public function onDispose(Param $param){}
 
 }
-    

@@ -1,0 +1,10 @@
+<?php
+    include_once './vendor/autoload.php';
+
+    $Console = new \zil\core\Console;
+    //Move up directory
+    chdir('../');
+
+    //Console manager
+    $Console->run($argv, $argc, getcwd());
+?>

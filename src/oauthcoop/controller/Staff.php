@@ -18,14 +18,23 @@ class Staff{
 
     use Notifier, Navigator, Hooks;
 
-			public function Login(Param $param){
+    public function Registraion(Param $param){
 
-				$OutputData = [];
+        $OutputData = [];
 
-				#render the desired interface inside the view folder
+        #render the desired interface inside the view folder
 
-				View::render("Staff/Login.php", $OutputData);
-			}
+        View::render("Staff/Registraion.php", $OutputData);
+    }
+
+    public function Login(Param $param){
+
+        $OutputData = [];
+
+        #render the desired interface inside the view folder
+
+        View::render("Staff/Login.php", $OutputData);
+    }
 
     public function __construct(){}
     public function onInit(Param $param){}
@@ -33,4 +42,3 @@ class Staff{
     public function onDispose(Param $param){}
 
 }
-    
