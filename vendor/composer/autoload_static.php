@@ -26,6 +26,7 @@ class ComposerStaticInita201138208421f238683f8a68246bb87
         'src\\oauthcoop\\controller\\Authentication' => __DIR__ . '/../..' . '/src/oauthcoop/controller/Authentication.php',
         'src\\oauthcoop\\controller\\Home' => __DIR__ . '/../..' . '/src/oauthcoop/controller/Home.php',
         'src\\oauthcoop\\controller\\Staff' => __DIR__ . '/../..' . '/src/oauthcoop/controller/Staff.php',
+        'src\\oauthcoop\\migration\\StaffRegistration' => __DIR__ . '/../..' . '/src/oauthcoop/migration/2020-02-13-1581592919$StaffRegistration.php',
         'src\\oauthcoop\\migration\\create_feedback_entity' => __DIR__ . '/../..' . '/src/oauthcoop/migration/2020-02-06-1581004521$create_feedback_entity.php',
         'src\\oauthcoop\\model\\Feedback' => __DIR__ . '/../..' . '/src/oauthcoop/model/Feedback.php',
         'src\\oauthcoop\\route\\Api' => __DIR__ . '/../..' . '/src/oauthcoop/route/Api.php',
