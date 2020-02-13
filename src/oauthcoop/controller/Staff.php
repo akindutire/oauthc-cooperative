@@ -23,7 +23,7 @@ class Staff{
         $OutputData = ['title' => "Registration",];
 
         #render the desired interface inside the view folder
-
+        // View::raw("Staff/Registraion.php");
         View::render("Staff/Registraion.php", $OutputData);
     }
 

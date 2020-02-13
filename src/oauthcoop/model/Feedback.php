@@ -1,6 +1,5 @@
 <?php
 namespace src\oauthcoop\model;
-
 use zil\core\tracer\ErrorTracer;
 use \zil\factory\Model;
 
@@ -32,3 +31,4 @@ class Feedback{
     
 }
     
+
