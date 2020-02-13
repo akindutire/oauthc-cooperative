@@ -21,7 +21,7 @@ class StaffRegistration implements Migration{
         */
 
         $schema = new Schema('Staff');
-
+        $schema->destroy('id');
         $schema->build('id')->Primary()->Integer()->AutoIncrement();
         $schema->build('firstname')->String();
         $schema->build('lastname')->String();
@@ -32,10 +32,10 @@ class StaffRegistration implements Migration{
         $schema->build('denomination')->String();
         $schema->build('residential_address')->String();
         $schema->build('oauth_file_no')->String();
-        $schema->build('rank')->String();
+        $schema->build('Staff_rank')->String();
         $schema->build('department')->String();
         $schema->build('last_seen')->Timestamp();
-        $schema->build('created_at')->Timestamp()->Default("NOW()");
+        $schema->build('created_at')->Timestamp();
     }
 
     /**
