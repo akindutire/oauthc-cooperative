@@ -4,7 +4,7 @@
     Login
 @endbuild
 
-@build('dynamic-page-content')
+@build('dynamicPageContent')
     <div class="row">
         <form action="{! route('') !}" method="POST" class="col-4 offset-4">
             <div class="form-group">

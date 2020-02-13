@@ -46,7 +46,7 @@
     </header>
     <main class="min-height-l">
         
-        @section('dynamic-page-content')
+        @section('dynamicPageContent')
 
     </main>
     <footer class="page-footer font-small indigo">
