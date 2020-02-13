@@ -31,7 +31,7 @@ class LoginNotifier{
     }
 
     public function isLoggedIn() : bool {
-        $temp = Session::get('isLoggedIn')
+        $temp = Session::get('isLoggedIn');
         return is_null($temp) ? false : true;
     }
 
