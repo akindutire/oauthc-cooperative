@@ -42,7 +42,7 @@
     </header> 
     <main class="min-height-l">
         
-        @section('dynamicpagecontent')
+        @section('dynamicPageContent')
 
     </main>
     <footer class ="">
