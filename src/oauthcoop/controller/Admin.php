@@ -22,7 +22,6 @@ class Admin{
     public function Login(Param $param){
 
         $OutputData = [
-            'feedback' => (new Feedback())->readOutData(),
             'title' => 'Admin'
         ];
 

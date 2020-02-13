@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@section('title')</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/fe8c9c3ce4.js" crossorigin="anonymous"></script>   
+    <script src="js/bootstrap.min.js"></script>
     <style>
         {!! $generalCss = asset('resource/css/general.css') !!}
         @import url({! $generalCss !});
