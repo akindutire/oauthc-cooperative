@@ -31,17 +31,21 @@
 		}
 		
 		public static function Init(){
-			(self::getInstance())->logOverride = true;
+			$Instance = self::getInstance();
+			$Instance->logOverride = true;
 			return self::getInstance();
 		}
 
 		public function QInit(){
-			(self::getInstance())->QlogOverride = true;
+			$Instance = self::getInstance();
+			$Instance->QlogOverride = true;
 			return self::getInstance();
 		}
 
 		public static function kill(){
-			(self::getInstance())->logOverride = false;
+			$Instance = self::getInstance();
+			$Instance->QlogOverride = false;
+			$Instance->logOverride = false;
 			return self::getInstance();
 		}
 
