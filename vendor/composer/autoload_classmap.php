@@ -7,7 +7,18 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'src\\oauthcoop\\config\\Config' => $baseDir . '/src/oauthcoop/config/config.php',
+    'src\\oauthcoop\\controller\\Admin' => $baseDir . '/src/oauthcoop/controller/Admin.php',
+    'src\\oauthcoop\\controller\\Authentication' => $baseDir . '/src/oauthcoop/controller/Authentication.php',
     'src\\oauthcoop\\controller\\Home' => $baseDir . '/src/oauthcoop/controller/Home.php',
+    'src\\oauthcoop\\controller\\Staff' => $baseDir . '/src/oauthcoop/controller/Staff.php',
+    'src\\oauthcoop\\controller\\StaffProcessor' => $baseDir . '/src/oauthcoop/controller/Forms/StaffProcessor.php',
+    'src\\oauthcoop\\migration\\StaffRegistration' => $baseDir . '/src/oauthcoop/migration/2020-02-13-1581592919$StaffRegistration.php',
+    'src\\oauthcoop\\migration\\addisAcceptedColumnToStaffTab' => $baseDir . '/src/oauthcoop/migration/2020-02-13-1581616520$addisAcceptedColumnToStaffTab.php',
+    'src\\oauthcoop\\migration\\create_feedback_entity' => $baseDir . '/src/oauthcoop/migration/2020-02-06-1581004521$create_feedback_entity.php',
+    'src\\oauthcoop\\migration\\drop_last_Seen_on_staff' => $baseDir . '/src/oauthcoop/migration/2020-02-13-1581618675$drop_last_Seen_on_staff.php',
+    'src\\oauthcoop\\model\\Feedback' => $baseDir . '/src/oauthcoop/model/Feedback.php',
+    'src\\oauthcoop\\model\\Staff' => $baseDir . '/src/oauthcoop/model/Staff.php',
     'src\\oauthcoop\\route\\Api' => $baseDir . '/src/oauthcoop/route/Api.php',
     'src\\oauthcoop\\route\\Web' => $baseDir . '/src/oauthcoop/route/Web.php',
+    'src\\oauthcoop\\service\\LoginNotifier' => $baseDir . '/src/oauthcoop/service/LoginNotifier.php',
 );

@@ -10,20 +10,20 @@
          class Config implements ConfigInterface{
 
              private const DB_DRIVER 	=   'mysql';
-             private const DB_HOST 		=   'localhost';
-             private const DB_USER 		=   'root';
-             private const DB_PASSWORD 	=   '';
-             private const DB_NAME 		=   '';
+             private const DB_HOST 		=   'remotemysql.com';
+             private const DB_USER 		=   'N0VklpOp4t';
+             private const DB_PASSWORD 	=   '6alkh1bMyK';
+             private const DB_NAME 		=   'N0VklpOp4t';
              private const DB_PORT 		=    3306;
              private const DB_ENGINE	=   'MyISAM';
-             private const DB_CHARSET	=   'latin1';
+             private const DBS_CHARSET	=   'latin1';
              private const APP_NAME	= "oauthcoop";
 
              public function __construct(){  }
 
              /** Specify allowed host to your app */
              public function getCorsPolicy() : array { 
-                return ['*']; 
+                return ['*'];
              }
 
              /**
@@ -65,4 +65,3 @@
                  ];
              }
          }
-        

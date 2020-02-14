@@ -1,0 +1,7 @@
+{
+
+    "commands": {
+        "autoload": "composer dump-autoload -o"
+    }
+
+}

@@ -18,8 +18,23 @@ class Web implements Route{
     * @return array
     */
     public function route(): array{
-        return [];
+
+        $webRoute = [
+            'admin/login' => (new Resource('Admin@Login'))->get(),
+            'staff/registration' => (new Resource('Staff@Registraion'))->get(),
+            'staff/login' => (new Resource('Staff@Login'))->alias('')->get(),
+            'staff/dashboard' => (new Resource('Staff/Dashboard@Board'))->alias('sdb')->get()
+        ];
+
+        $webFormSubmission = $this->prefix('form/',
+            [
+                'reg-staff' => (new Resource('Forms/StaffProcessor@SubmitStaffRegistration'))->post()
+            ]
+            );
+
+        return $this->merge($webFormSubmission, $webRoute);
+
+
     }
 }
 
-    
