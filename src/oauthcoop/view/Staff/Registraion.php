@@ -8,7 +8,7 @@
 @build('dynamicpagecontent')
 
     <div class="container-fluid" style="background-image: url('https://source.unsplash.com/daily?piggybank'); width:auto; height:auto;">
-        <div class="container py-5 ">
+        <div class="container py-5  ">
             <div class="col-lg-4 offset-lg-8 offset-md-1 col-md-10 col-sm-12  bg-light shadow-sm my-5 border rounded">
                 <form action="" class="form-group">
                     <div class="form-row">

@@ -32,7 +32,7 @@ class Staff{
         $OutputData = [];
 
         #render the desired interface inside the view folder
-
+        // View::raw("Staff/Login.php");
         View::render("Staff/Login.php", $OutputData);
     }
 
