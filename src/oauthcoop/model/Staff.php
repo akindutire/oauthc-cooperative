@@ -23,7 +23,6 @@ class Staff{
 
 	public static $table = 'Staff';
 
-
     public function __construct(){}
     
 }

@@ -4,6 +4,7 @@
  */
 namespace zil\core\writer;
 
+use zil\core\interfaces\Config;
 use zil\core\interfaces\Writer;
 use zil\core\scrapper\Info;
 use zil\blueprint\Blueprint;
@@ -33,7 +34,7 @@ class Model implements Writer
 
             $cfg = "src\\$app_name\\config\Config";
 
-            $config =  new $cfg();
+                $config =  new $cfg();
 
             return $config->getDatabaseParams();
 

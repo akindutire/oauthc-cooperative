@@ -43,21 +43,10 @@ class StaffProcessor
 
                     $Staff = new \src\oauthcoop\model\Staff();
 
-                    $Staff->firstname = null;
-                    $Staff->lastname = null;
+
                     $Staff->email = $email;
                     $Staff->password = $enc_password;
                     $Staff->IPPIS_NO = $ippis_no;
-                    $Staff->religion = null;
-                    $Staff->denomination = null;
-                    $Staff->residential_address = null;
-                    $Staff->oauth_file_no = null;
-                    $Staff->Staff_rank = null;
-                    $Staff->department = null;
-                    $Staff->id = null;
-                    $Staff->created_at = null;
-                    $Staff->isAccepted = null;
-
 
                     $Logger = new Logger();
                     $Logger->QInit();
