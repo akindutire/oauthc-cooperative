@@ -16,7 +16,7 @@
              private const DB_NAME 		=   'N0VklpOp4t';
              private const DB_PORT 		=    3306;
              private const DB_ENGINE	=   'MyISAM';
-             private const DBS_CHARSET	=   'latin1';
+             private const DB_CHARSET	=   'latin1';
              private const APP_NAME	= "oauthcoop";
 
              public function __construct(){  }
@@ -49,7 +49,7 @@
                      'database'	=>	self::DB_NAME,
                      'port'		=>	self::DB_PORT,
                      'engine'	=>	self::DB_ENGINE,
-                     'charset'	=>	self::DB_CHARSET
+                     'charset'	=>	self::DB_CHARSET,
                  ];
              }
 
