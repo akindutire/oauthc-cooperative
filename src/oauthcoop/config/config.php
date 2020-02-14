@@ -13,7 +13,7 @@
              private const DB_HOST 		=   'localhost';
              private const DB_USER 		=   'root';
              private const DB_PASSWORD 	=   '';
-             private const DB_NAME 		=   'test';
+             private const DB_NAME 		=   '';
              private const DB_PORT 		=    3306;
              private const DB_ENGINE	=   'MyISAM';
              private const DB_CHARSET	=   'latin1';
@@ -23,7 +23,7 @@
 
              /** Specify allowed host to your app */
              public function getCorsPolicy() : array { 
-                return ['*'] 
+                return ['*']; 
              }
 
              /**
