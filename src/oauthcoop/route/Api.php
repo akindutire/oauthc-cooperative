@@ -18,8 +18,20 @@ class Api implements Route{
     * @return array
     */
     public function route(): array{
-        return [];
+
+        $staffApiCalls = $this->prefix('staff',
+            [
+              'login' => (new Resource('Authentication@StaffLogin'))->post()
+            ]
+            );
+
+        $adminApiCalls = $this->prefix('staff',
+            [
+                'login' => (new Resource('Authentication@AdminLogin'))->post()
+            ]
+        );
+
+        return $this->merge($staffApiCalls, $adminApiCalls);
     }
 }
 
-    
