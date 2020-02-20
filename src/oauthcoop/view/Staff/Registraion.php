@@ -7,7 +7,7 @@
 @build('dynamicPageContent')
 
 <div class="container-fluid"
-    style="background-image: url('https://source.unsplash.com/daily?piggybank'); width:auto; height:auto;">
+     style="background-image: url('https://source.unsplash.com/daily?piggybank'); width:auto; height:auto;">
     <div class="container py-5  ">
         <div class="col-lg-4 offset-lg-8 offset-md-1 col-md-10 col-sm-12  bg-light shadow-sm my-5 border rounded">
             <form action="{! route('form/reg-staff') !}" method="post">
@@ -44,6 +44,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <label for="IPPI_no" class="col-form-label ">IPPIS no</label>
                     <div class="input-group mb-2 mr-sm-2">
