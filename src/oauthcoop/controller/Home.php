@@ -18,6 +18,14 @@ class Home{
 
     use Notifier, Navigator, Hooks;
 
+    public function index(Param $param){
+        $OutputData = ['title' => "OAUTHCoop",];
+
+        #render the desired interface inside the view folder
+        // View::raw("Staff/Registraion.php");
+        View::render("Index.php", $OutputData);
+    }
+
     public function __construct(){}
     public function onInit(Param $param){}
     public function onAuth(Param $param){}

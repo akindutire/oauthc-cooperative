@@ -32,3 +32,13 @@ footer li.list-group-item a:hover{
     color: #ffa726 !important;
 
 }
+.max-h{
+    max-height: 600px;
+}
+.tc{
+    text-align: center;
+}
+.text-welcome{
+    color: #f6fdff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
