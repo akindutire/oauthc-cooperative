@@ -45,7 +45,7 @@ namespace zil\factory;
          * @return null|PDO
          */
 
-        private function newConnection( array $con_params ) {
+        private function newConnection( array $con_params ) : ?PDO {
 			
 			/****
 			*	More Development is Needed in Future -Supported Database ARE [Mysql,Sqlite,PgSql]

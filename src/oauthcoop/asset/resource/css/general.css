@@ -17,6 +17,9 @@ footer li.list-group-item a{
     color: #e8eaf6 !important;
 }
 
+footer li.list-group-item a:hover{
+    color: #ff5100 !important;
+}
 .std-bg-primary{
     background: #1a237e ;
 }
@@ -28,4 +31,14 @@ footer li.list-group-item a{
 .menu a:hover{
     color: #ffa726 !important;
 
+}
+.max-h{
+    max-height: 600px;
+}
+.tc{
+    text-align: center;
+}
+.text-welcome{
+    color: #f6fdff;
+    font-family: Comic Sans MS, cursive, sans-serif;
 }

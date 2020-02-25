@@ -1,0 +1,186 @@
+02:11:31 am ::-->> Array
+(
+    [0] => INSERT INTO Staff VALUES(:firstname,:lastname,:email,:password,:IPPIS_NO,:religion,:denomination,:residential_address,:oauth_file_no,:Staff_rank,:department,:id,:created_at,:isAccepted)
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [key] => firstname
+                    [value] => 
+                )
+
+            [1] => Array
+                (
+                    [key] => lastname
+                    [value] => 
+                )
+
+            [2] => Array
+                (
+                    [key] => email
+                    [value] => hfg@g.com
+                )
+
+            [3] => Array
+                (
+                    [key] => password
+                    [value] => $2y$15$.sowVS99UnbMNK4ufZDyZe9tqjXHjMd30GgwT32Yyibn09KP5Gtke
+                )
+
+            [4] => Array
+                (
+                    [key] => IPPIS_NO
+                    [value] => 848
+                )
+
+            [5] => Array
+                (
+                    [key] => religion
+                    [value] => 
+                )
+
+            [6] => Array
+                (
+                    [key] => denomination
+                    [value] => 
+                )
+
+            [7] => Array
+                (
+                    [key] => residential_address
+                    [value] => 
+                )
+
+            [8] => Array
+                (
+                    [key] => oauth_file_no
+                    [value] => 
+                )
+
+            [9] => Array
+                (
+                    [key] => Staff_rank
+                    [value] => 
+                )
+
+            [10] => Array
+                (
+                    [key] => department
+                    [value] => 
+                )
+
+            [11] => Array
+                (
+                    [key] => id
+                    [value] => 
+                )
+
+            [12] => Array
+                (
+                    [key] => created_at
+                    [value] => 
+                )
+
+            [13] => Array
+                (
+                    [key] => isAccepted
+                    [value] => 
+                )
+
+        )
+
+)
+
+02:12:11 am ::-->> Array
+(
+    [0] => INSERT INTO Staff VALUES(:firstname,:lastname,:email,:password,:IPPIS_NO,:religion,:denomination,:residential_address,:oauth_file_no,:Staff_rank,:department,:id,:created_at,:isAccepted)
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [key] => firstname
+                    [value] => 
+                )
+
+            [1] => Array
+                (
+                    [key] => lastname
+                    [value] => 
+                )
+
+            [2] => Array
+                (
+                    [key] => email
+                    [value] => hfg@g.com
+                )
+
+            [3] => Array
+                (
+                    [key] => password
+                    [value] => $2y$15$pMPLAZs51rxisv.eEwWBHOd/ycDQxXd0bVV7/0xk/mGRmm.qqVedm
+                )
+
+            [4] => Array
+                (
+                    [key] => IPPIS_NO
+                    [value] => 848
+                )
+
+            [5] => Array
+                (
+                    [key] => religion
+                    [value] => 
+                )
+
+            [6] => Array
+                (
+                    [key] => denomination
+                    [value] => 
+                )
+
+            [7] => Array
+                (
+                    [key] => residential_address
+                    [value] => 
+                )
+
+            [8] => Array
+                (
+                    [key] => oauth_file_no
+                    [value] => 
+                )
+
+            [9] => Array
+                (
+                    [key] => Staff_rank
+                    [value] => 
+                )
+
+            [10] => Array
+                (
+                    [key] => department
+                    [value] => 
+                )
+
+            [11] => Array
+                (
+                    [key] => id
+                    [value] => 
+                )
+
+            [12] => Array
+                (
+                    [key] => created_at
+                    [value] => 
+                )
+
+            [13] => Array
+                (
+                    [key] => isAccepted
+                    [value] => 
+                )
+
+        )
+
+)
+

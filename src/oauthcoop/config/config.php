@@ -49,7 +49,7 @@
                      'database'	=>	self::DB_NAME,
                      'port'		=>	self::DB_PORT,
                      'engine'	=>	self::DB_ENGINE,
-                     'charset'	=>	self::DB_CHARSET
+                     'charset'	=>	self::DB_CHARSET,
                  ];
              }
 

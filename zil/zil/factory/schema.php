@@ -9,9 +9,6 @@ namespace zil\factory;
     use zil\core\writer\Model;
     use zil\core\directory\Tree;
     use zil\core\interfaces\Config;
- 
-
-
 
     class Schema
     {

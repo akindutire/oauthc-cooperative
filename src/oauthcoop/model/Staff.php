@@ -17,14 +17,15 @@ class Staff{
 	public $oauth_file_no = null;
 	public $Staff_rank = null;
 	public $department = null;
-	public $last_seen = null;
 	public $id = null;
 	public $created_at = null;
+	public $isAccepted = null;
 
 	public static $table = 'Staff';
-
 
     public function __construct(){}
     
 }
     
+
+

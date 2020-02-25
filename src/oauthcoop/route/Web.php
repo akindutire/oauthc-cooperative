@@ -22,8 +22,9 @@ class Web implements Route{
         $webRoute = [
             'admin/login' => (new Resource('Admin@Login'))->get(),
             'staff/registration' => (new Resource('Staff@Registraion'))->get(),
-            'staff/login' => (new Resource('Staff@Login'))->alias('')->get(),
-            'staff/dashboard' => (new Resource('Staff/Dashboard@Board'))->alias('sdb')->get()
+            'staff/login' => (new Resource('Staff@Login'))->get(),
+            'staff/dashboard' => (new Resource('Staff/Dashboard@Board'))->alias('sdb')->get(),
+            'Home' => (new Resource('Home@index'))->alias('')->get(),
         ];
 
         $webFormSubmission = $this->prefix('form/',
